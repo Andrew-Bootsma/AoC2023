@@ -1,7 +1,7 @@
 (ns AoC.day1.AoC1a (:require [clojure.java.io :as io]) (:require [clojure.string :as str]))
 
 (defn readFile []
-  (with-open [rdr (io/reader "src/clojure_sandbox/inputs/AoCinput1.txt")]
+  (with-open [rdr (io/reader "inputs/AoCinput1.txt")]
     (reduce conj [] (line-seq rdr))))
 (readFile)
 
