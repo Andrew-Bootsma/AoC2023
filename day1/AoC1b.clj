@@ -1,4 +1,4 @@
-(ns clojure-sandbox.day1.AoC1b (:require [clojure.java.io :as io]) (:require [clojure.string :as str]))
+(ns AoC.day1.AoC1b (:require [clojure.java.io :as io]) (:require [clojure.string :as str]))
 
 (defn readFile []
   (with-open [rdr (io/reader "src/clojure_sandbox/inputs/AoCinput1.txt")]
